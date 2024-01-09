@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+
+}
+
+.template {
+    background-color: #415e9b;
+}
+
+.parent-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side {
+    margin-top: 27px;
+}
+
+.left-side h1 {
+    float: left;
+    margin-right: 16px;
+    font-size: 42px;
+    color: white;
+    margin-left: 10px;
+}
+
+.left-side .left-button {
+    background: #42b72a;
+    padding: 9px 13px;
+    border: none;
+    color: white;
+    border-radius: 2px;
+    font-weight: bold;
+    margin-top: 10px !important;
+}
+
+.total {
+    display: flex;
+    margin-top: 29px;
+}
+
+.mide-side {
+    color: white;
+    font-size: 12px;
+}
+
+input[type="email"] {
+    margin-right: 16px;
+    padding: 2px 0;
+}
+
+.passwor p {
+    color: white;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+
+input[type="password"] {
+    padding: 2px 0;
+}
+
+.passwor a {
+    color: #ffffff9e;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+button.right-button {
+    margin-top: 16px;
+    padding: 3px 4px;
+    background: #4267b2;
+    border: none;
+    color: white;
+    margin-left: 10px;
+}
+
+/* body section */
+.fb-body {
+    width: 452px;
+    height: 285px;
+    border: 1px solid #0000002e;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    box-shadow: -1px 2px 12px -3px rgba(0, 0, 0, 0.7);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input#login {
+    width: 66%;
+    padding: 10px 0;
+}
+
+input#submit {
+    width: 52%;
+    padding: 9px 0;
+    background: #4267b2;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.down-side {
+    margin-top: 10px;
+}
+
+.down-side a {
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.down-side button {
+    margin-top: 14px;
+    background: #42b72a;
+    border: none;
+    padding: 10px 11px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+.fb-body p {
+    font-size: 24px;
+    color: gray;
+    margin-top: 14px;
+}
